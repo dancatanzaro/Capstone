@@ -1,30 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Cooking to Stay Sane</title>
-    <link rel="stylesheet" href="css/style.css"> 
-</head>
-<body>
-   <div id="root">
-       <nav id="navigation">
-                <a href="">Home</a>
-                <a href="./recipes/index.html">Recipes</a>
-                <a href="">About</a>
-        </nav>
-    <div id="header">
-        <h1>cooking sanely</h1>
-    </div>
-    
-    <div id="introduction">
-        <img src="https://i.imgur.com/yHT9qg2.jpg" class="bio-photo"> <p>Hey, welcome to my cooking and baking endeavours. I usually try to keep it healthy, but I will get naughty sometimes</p>
-    </div>
-    <div id="content">
-            <a href="recipes/waffles.html"> <span class="recipe-name"><h1>Yogurt Waffles (Gluten Free)</h1></span> </a>
+export default `
+<div id="content">
+        <span class="recipe-name"><h1>Yogurt Waffles (Gluten Free)</h1></span>
             <div class="front-page-recipe">
-               <a href="recipes/waffles.html"><img src="https://i.imgur.com/cGfwzfb.jpg" title="Waffles: Syrup traps" class="front-page-photo"/></a>
+                <img src="https://i.imgur.com/cGfwzfb.jpg" title="Waffles: Syrup traps" class="front-page-photo"/>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, molestias blanditiis facilis temporibus iure inventore explicabo dolorum odit perferendis, modi itaque voluptatibus in dignissimos neque atque voluptatum accusamus omnis dolore?</p>
             </div>
         <span class="recipe-name"> <h1>Pumpkin Tahini Muffins</h1></span>
@@ -52,13 +30,5 @@
                 <img src="https://i.imgur.com/3Sbvutv.jpg" title="source: imgur.com" class="front-page-photo"/>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, molestias blanditiis facilis temporibus iure inventore explicabo dolorum odit perferendis, modi itaque voluptatibus in dignissimos neque atque voluptatum accusamus omnis dolore?</p>
             </div>
-    </div>
-<footer id="footer">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero ratione sit eligendi consectetur blanditiis ipsam officiis sapiente fugit eveniet praesentium voluptas, qui unde, quibusdam expedita obcaecati, vitae corrupti iure vel.</p>
-</footer>
-</div>  
-<script src="Nav.js"></script>
-<!-- <script src="index.js"></script> -->
-</body>
-</html>
-
+</div>
+`;
