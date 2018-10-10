@@ -1,5 +1,6 @@
 
  body {
+     margin: 0;
 background-color: #eeeeee;
 
 }
@@ -54,28 +55,31 @@ a {
     height: 100px;
 }
 #content {
-    margin-left: 60px;  
-    margin-right: 60px;
+    margin-left: 20%;  
+    margin-right: 20%;
 
   }
 .front-page-recipe {
-    display: grid;
-    grid-template-areas: "b c";
-    margin-bottom: 25px;
+    margin-bottom: 25px; 
+    display: flex;
+  
 }
 
 .front-page-recipe > p {
-    grid-area: c;
-    margin: 0px;
+
     padding-left: 10px;
-    align-self: center;
-    font-size: 20px;
+    align-items: center;
+    font-size: 20px; 
+   
+
 }
 
 .front-page-photo{
-    grid-area: b;
-    height: 350px;
-    width: 350px;
+    object-fit: cover;
+    align-items: center;
+    order: -1;
+    height: 30vh;
+    width: 30vh;
 }
 
 .ingredients > li {
@@ -106,6 +110,8 @@ img {
                          "f f";
     grid-template-columns: auto 70%;
     grid-template-rows: auto;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .recipe-info {
@@ -115,12 +121,13 @@ img {
 .recipe-time {
     grid-area: b;
     height: min-content;
+    object-fit: fill;
 }
 
 .recipe-card-photo {
     grid-area: c;
-    height: 30vh;
-    width: 30vh;
+    object-fit: fill;
+    
 }
 .recipe-ingredients {
     grid-area: d;
