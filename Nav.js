@@ -1,5 +1,3 @@
-import Navigation from './components/Navigation';
-
 var nav = document.querySelector('#navigation');
 var topOfNav = nav.offsetTop;
 
