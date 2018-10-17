@@ -91,6 +91,10 @@ img {
     margin-left: 10px; 
 }
 
+.recipe-link {
+    font-weight: bold;
+}
+
 .recipes-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
