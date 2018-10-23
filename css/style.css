@@ -11,6 +11,7 @@ img {
 #navigation {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 24px;
+    background-color: white;
     z-index: 1;
 }
 
@@ -58,6 +59,9 @@ img {
 
 #content a {
     text-decoration: none;
+}
+a:hover {
+    color: green;
 }
 
 .main-recipe-card {
