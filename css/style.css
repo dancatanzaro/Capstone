@@ -227,20 +227,8 @@ a:hover {
    }
 
 @media print {
-    #header {
-        display: none;
-    }
-    
-    #navigation {
-        display: none;
-    }
-
-    footer {
-        display: none;
-    }
-
-    img {
-        display: none;
+    #header, #navigation, #footer, img {
+        display: none !important;
     }
 }
 }
