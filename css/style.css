@@ -225,4 +225,22 @@ a:hover {
    #introduction {
        font-size: 16px;
    }
+
+@media print {
+    #header {
+        display: none;
+    }
+    
+    #navigation {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+
+    img {
+        display: none;
+    }
+}
 }
